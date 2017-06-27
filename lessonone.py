@@ -2,6 +2,7 @@ __author__ = 'Mr Bancroft'                          # Not needed just nice to sh
 
 print("The first lesson in Python")                 # print statement to output text
 print(1 + 2)                                        # Python is clever enough to convert integers to text after adding
+print(str(32))										# but... you can make the conversion explicit using str() and some types need to be converted to a string first
 print(7 * 6)                                        # Python will use the * as multiply as it knows integers are here
 print("Hello" * 6)                                  # Python will print hello six times as the * is now used on a string
 print()                                             # Just print a blank line
